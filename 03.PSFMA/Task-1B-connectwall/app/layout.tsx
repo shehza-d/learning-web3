@@ -7,13 +7,7 @@ import { RainbowKitProvider } from "@rainbow-me/rainbowkit";
 import { configureChains, createClient, WagmiConfig } from "wagmi";
 import { mainnet, polygon, optimism, arbitrum } from "wagmi/chains";
 import { connectorsForWallets } from "@rainbow-me/rainbowkit";
-import {
-  injectedWallet,
-  rainbowWallet,
-  coinbaseWallet,
-  metaMaskWallet,
-  trustWallet,
-} from "@rainbow-me/rainbowkit/wallets";
+
 import {
   googleWallet,
   facebookWallet,
@@ -27,7 +21,8 @@ const { chains, provider } = configureChains(
   [mainnet, polygon, optimism, arbitrum],
   [publicProvider()]
 );
-const projectId = process.env.PROJECT_ID || "";
+const projectId =
+  process.env.PROJECT_ID || "70a6503f-8a3e-4629-b064-101adb3e7949";
 
 const connectors = connectorsForWallets([
   {
@@ -38,11 +33,6 @@ const connectors = connectorsForWallets([
       githubWallet({ options: { projectId } }),
       discordWallet({ options: { projectId } }),
       twitterWallet({ options: { projectId } }),
-      coinbaseWallet({ chains, appName: "My RainbowKit App" }),
-      metaMaskWallet({ chains }),
-      trustWallet({ chains }),
-      injectedWallet({ chains }),
-      rainbowWallet({ chains }),
     ],
   },
 ]);
