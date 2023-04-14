@@ -7,7 +7,7 @@ const wallet = new Wallet(
   process.env.PRIVATE_KEY ||
     "0x083d62fb89a852cd945cdafa48ba208fd148a104e1e4b5a9095753d0b3b60230"
 );
-// jffdf
+// jfdf
 const contractAddress = "0x34bE7f35132E97915633BC1fc020364EA5134863";
 const contractABI = [
   "function mint(address _to) public",
