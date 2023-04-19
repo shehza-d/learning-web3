@@ -7,7 +7,7 @@
 Prerequisites are Basic knowledge of :
 
 - JavaScript (TS)
-- Operating terminal and [GIT](https://youtube.com/playlist?list=PL_s5d7ncPMZaFc6FBXIkabLUiljGkYOYL)
+- Operating a terminal and [GIT](https://youtube.com/playlist?list=PL_s5d7ncPMZaFc6FBXIkabLUiljGkYOYL)
 - How [Smart contracts](https://ethereum.org/learn/#smart-contracts) work
 - Metamask wallet
 
@@ -60,6 +60,10 @@ npm i -D @nomicfoundation/hardhat-toolbox
 - Anyone with at least one token can transfer tokens.
 - The token will be non-divisible. You can transfer 1, 2, 3 or 37 tokens but not 2.5.
 - For simplicity the token we're going to build does not implement the ERC-20 standard.
+
+### Practical of the contract
+
+[/contracts/Lock.sol](./contracts/Lock.sol)
 
  <br>
  <br>
