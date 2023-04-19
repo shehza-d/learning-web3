@@ -1,0 +1,19 @@
+{
+  "name": "hardhat-hello-world",
+  "version": "1.0.0",
+  "description": "hello world",
+  "main": "index.js",
+  "scripts": {
+    "test": "h"
+  },
+  "keywords": [
+    "solidity",
+    "hardhat"
+  ],
+  "author": "shehzad",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "hardhat": "^2.14.0"
+  }
+}
