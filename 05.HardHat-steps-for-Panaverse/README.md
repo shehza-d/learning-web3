@@ -1,5 +1,7 @@
 # Basic steps for Smart Contract Development
 
+<hr>
+
 ### [HardHat](https://hardhat.org/tutorial) is a development environment Ethereum contracts and dApps
 
 <br>
@@ -11,9 +13,9 @@ Prerequisites are Basic knowledge of :
 - How [Smart contracts](https://ethereum.org/learn/#smart-contracts) work
 - Metamask wallet
 
-<hr>
-
 ## Setup
+
+<hr>
 
 <br>
 
