@@ -47,11 +47,11 @@ npm i -D @nomicfoundation/hardhat-toolbox
 ``` -->
 <hr>
 
-## Now Let's create create a simple smart contract.
+# Now Let's create create a simple smart contract.
 
 <br>
 
-### Theory of the contract we are going to build
+## Theory of the contract we are going to build
 
 - It will implements a token that can be transferred.
 - There will be a fixed total supply of tokens that can't be changed.
@@ -61,17 +61,17 @@ npm i -D @nomicfoundation/hardhat-toolbox
 - The token will be non-divisible. You can transfer 1, 2, 3 or 37 tokens but not 2.5.
 - For simplicity the token we're going to build does not implement the ERC-20 standard.
 
-### Practical of the contract
+## Practical of the contract
 
 [/contracts/Lock.sol](./contracts/Lock.sol)
 
- <br>
- <br>
- <br>
- <br>
-
-To compile code
+To compile code run
 
 ```
 npx hardhat compile
 ```
+
+ <!-- <br>
+ <br>
+ <br>
+ <br> -->
