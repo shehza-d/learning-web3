@@ -4,4 +4,5 @@
 
 [Online Compiler](https://remix.ethereum.org/)
 
-Contracts are like Objects (OOPs)
+- Contracts are like Objects (OOPs)
+- Read is free but when we write something in blockchain ma pay gas fee

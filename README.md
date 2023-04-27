@@ -9,3 +9,5 @@ Solidity is a statically-typed curly-braces programming language designed for de
 [Learning repo 1](https://github.com/panaverse/learn-nextjs/blob/main/stepxx_web3/)
 
 [Learning repo 2](https://github.com/panaverse/defi-dapps-solidity-smart-contracts)
+
+<h3 align="center">Show some ❤ by <img src="https://imgur.com/o7ncZFp.jpg" height=25px width=25px> some repositories</h3>
